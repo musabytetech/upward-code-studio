@@ -223,6 +223,23 @@ const Policies = () => {
                     </div>
                   </CardContent>
                 </Card>
+
+                <Card className="bg-red-500/5 border-red-500/20">
+                  <CardHeader>
+                    <CardTitle className="text-lg flex items-center space-x-2 text-red-600">
+                      <AlertCircle className="h-5 w-5" />
+                      <span>Services We Don't Offer</span>
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 text-sm">
+                      <p>• SEO services and optimization</p>
+                      <p>• Monthly maintenance packages</p>
+                      <p>• Ongoing content updates</p>
+                      <p>• Hosting or domain management</p>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </div>
