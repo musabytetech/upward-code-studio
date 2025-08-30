@@ -74,7 +74,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4 text-sm text-muted-foreground">
-            <p>&copy; 2024 Upward Studio. All rights reserved.</p>
+            <p>&copy; 2025 Upward Studio. All rights reserved.</p>
             <span className="hidden md:block">•</span>
             <p>Available 24/6 • Quick delivery in 1 week</p>
           </div>

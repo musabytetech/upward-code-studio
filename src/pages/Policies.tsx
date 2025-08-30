@@ -32,8 +32,8 @@ const Policies = () => {
       title: "Payment Terms",
       items: [
         "Payments accepted via PayShap only",
-        "50% deposit required to start project",
-        "Remaining balance due before final delivery",
+        "No deposit required - FREE demo first",
+        "Payment only due after demo approval",
         "Secure payment processing",
         "Invoice provided for all transactions"
       ]

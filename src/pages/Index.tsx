@@ -57,7 +57,7 @@ const Index = () => {
   ];
 
   const stats = [
-    { number: "50+", label: "Projects Delivered" },
+    { number: "FREE", label: "Demo First" },
     { number: "1 Week", label: "Average Delivery" },
     { number: "24/6", label: "Availability" },
     { number: "100%", label: "Client Satisfaction" }
@@ -150,47 +150,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Portfolio Section */}
-        <section className="py-20 px-4 bg-gradient-subtle">
-          <div className="container mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-bold mb-4">
-                Our Recent Work
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Take a look at some of the beautiful websites we've created for our clients.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              {portfolioItems.map((item, index) => (
-                <Card key={index} className="bg-card border-border shadow-card hover:shadow-brand transition-all duration-300 group overflow-hidden">
-                  <div className="aspect-video overflow-hidden">
-                    <img 
-                      src={item.image} 
-                      alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <CardHeader>
-                    <div className="flex items-center justify-between mb-2">
-                      <Badge variant="secondary" className="text-xs">
-                        {item.category}
-                      </Badge>
-                      <div className="flex">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="h-3 w-3 fill-primary text-primary" />
-                        ))}
-                      </div>
-                    </div>
-                    <CardTitle className="text-lg">{item.title}</CardTitle>
-                    <CardDescription>{item.description}</CardDescription>
-                  </CardHeader>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Pricing Teaser */}
         <section className="py-20 px-4">
